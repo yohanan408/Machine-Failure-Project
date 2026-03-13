@@ -12,9 +12,9 @@ Categorical: Product quality, serial numbers, etc.
 
 EDA & Data Preperations:
 
-Visualizations
-Handling missing values
-Correlation Analysis
+Visualizations,
+data cleaning,
+Correlation Analysis,
 Feature Engineering:
 
 
