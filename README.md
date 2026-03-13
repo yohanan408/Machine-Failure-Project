@@ -1,4 +1,5 @@
-Dataset Overview
+Dataset Overview:
+
 This is a dataset from kaggle that has feature of several factors that affect
 machine failure.
 
@@ -9,21 +10,18 @@ Features include:
 Continuous: Temperature, rotational speed, torque, tool wear, etc.
 Categorical: Product quality, serial numbers, etc.
 
-Project Workflow
 EDA & Data Preperations:
 
-Statistical Analysis
 Visualizations
-Handling missing values and outliers
-Skewness Analysis
+Handling missing values
 Correlation Analysis
-Feature Engineering & Normalization:
+Feature Engineering:
 
-Three new features were engineered
-Ordinal and Standard normalization
-Model Training:
+
+Training a model:
 
 classification using algorithms like Decision Trees, Knn, Random Forest etc.
+
 Evaluation:
 
 Metrics: Accuracy, Precision, Recall, F1-Score, Support
