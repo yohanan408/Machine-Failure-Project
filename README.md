@@ -1,6 +1,6 @@
 Dataset Overview:
 
-This is a dataset from kaggle that has feature of several factors that affect
+This is a dataset from kaggle that has columns of several factors that affect
 machine failure.
 
 10,000 records and 14 features
