@@ -219,7 +219,8 @@ def evaluate(
         preds = model.predict(x_test)
         report = classification_report(y_test, preds, output_dict=True)
         cm = confusion_matrix(y_test, preds)
-        fpr, tpr, _ = roc_curve(y_test, preds)
+        proba = model.predict_proba(x_test)[:, 1]
+        fpr, tpr, _ = roc_curve(y_test, proba)
         model_auc = auc(fpr, tpr)
         results.append((name, report, cm, model_auc))
 
