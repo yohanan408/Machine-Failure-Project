@@ -264,3 +264,8 @@ def main(csv_path: str | pathlib.Path = "/mnt/c/Users/John/Documents/machine fai
 
 if __name__ == "__main__":
     main()
+
+# ---------------------------------------------------------------------------
+# Layout / comment block – placeholders for future pipeline stages
+# ---------------------------------------------------------------------------
+# End of file
