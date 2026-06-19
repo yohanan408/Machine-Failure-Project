@@ -1,0 +1,28 @@
+Dataset Overview:
+
+This is a dataset from kaggle that has columns of several factors that affect
+machine failure.
+
+10,000 records and 14 features
+Target variable:
+Machine Failure: Binary(0 or 1), based on whether a machine fails or not
+Features include:
+Continuous: Temperature, rotational speed, torque, tool wear, etc.
+Categorical: Product quality, serial numbers, etc.
+
+EDA & Data Preperations:
+
+Visualizations,
+data cleaning,
+Correlation Analysis,
+Feature Engineering:
+
+
+Training a model:
+
+classification using algorithms like Decision Trees, Knn, Random Forest etc.
+
+Evaluation:
+
+Metrics: Accuracy, Precision, Recall, F1-Score, Support
+Classification report
